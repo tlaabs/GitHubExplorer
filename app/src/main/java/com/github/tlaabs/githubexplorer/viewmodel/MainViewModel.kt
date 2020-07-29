@@ -42,4 +42,8 @@ class MainViewModel(
             )
         }
     }
+
+    fun updateFilter(filter : String){
+        filterValue = filter
+    }
 }

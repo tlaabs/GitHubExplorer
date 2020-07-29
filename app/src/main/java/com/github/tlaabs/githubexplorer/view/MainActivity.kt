@@ -7,6 +7,7 @@ import android.text.TextWatcher
 import android.util.Log
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.github.tlaabs.githubexplorer.R
 import com.github.tlaabs.githubexplorer.view.adapter.MainAdapter
 import com.github.tlaabs.githubexplorer.view.adapter.paginator.RecyclerViewPaginator
@@ -71,7 +72,7 @@ class MainActivity : BaseActivity(), FilterListener {
     }
 
     override fun onFilterChanged(filter: String) {
-        binding.viewModel!!.filterValue = filter
+        binding.viewModel!!.updateFilter(filter)
         paginator.refresh()
     }
 }

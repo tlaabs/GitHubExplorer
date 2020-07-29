@@ -12,8 +12,8 @@ class RecyclerViewPaginator(
     val fetchState: FetchState
 ) : RecyclerView.OnScrollListener() {
     private var page = 1
-    val size = 15
-    private var threshold = 5
+    val size = 30
+    private var threshold = 10
 
     private var layoutManager: LinearLayoutManager
 

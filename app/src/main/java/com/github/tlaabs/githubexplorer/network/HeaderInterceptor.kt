@@ -7,7 +7,7 @@ class HeaderInterceptor : Interceptor {
     override fun intercept(chain: Interceptor.Chain): Response {
         var request = chain.request()
             .newBuilder()
-            .addHeader("Authorization", "token 192d7d9f5667335012641a9512a69053580539b7")
+            .addHeader("Authorization", "token 35475e8e33cf0bb9dbf9f050b2bdf214c17d4792")
             .build()
         return chain.proceed(request)
     }
