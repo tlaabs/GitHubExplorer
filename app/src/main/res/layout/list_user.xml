@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="item"
+            type="com.github.tlaabs.githubexplorer.model.User" />
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="#DDDDFF"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:src="@drawable/avatar"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:circleCrop="@{item.avatarUrl}"
+        />
+   <TextView
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       tools:text="@{item.name}"
+       android:textSize="18dp"
+       android:textColor="#000000"
+       android:gravity="center|left"
+       android:layout_weight="1"/>
+
+</LinearLayout>
+</layout>

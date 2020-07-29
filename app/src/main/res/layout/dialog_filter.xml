@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:id="@+id/filter_created_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="created"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/filter_updated_btn_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="updated"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
