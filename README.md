@@ -4,10 +4,10 @@
 <img src = "https://user-images.githubusercontent.com/8165219/88750312-2b4a3200-d190-11ea-92a7-0fb2bc3995e4.gif" width="300px">
 
 ## Feature
-- 검색필드 텍스트 500ms 안에 변화가 없으면 검색 시작.
+- 검색필드 텍스트 500ms 안에 변화가 없으면 검색
 - 무한 스크롤
-- 멀티 섹션 리사이클러뷰 구성
-- 필터 기능
+- 멀티 섹션
+- 검색 필터
 
 ## Tech & Library
 - Kotlin
