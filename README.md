@@ -3,7 +3,10 @@
 
 <img src = "https://user-images.githubusercontent.com/8165219/88750312-2b4a3200-d190-11ea-92a7-0fb2bc3995e4.gif" width="300px">
 
-## 태크 & 라이브러리
+## Feature
+- 
+
+## Tech & Library
 - Kotlin
 - JetPack
   - LiveData
@@ -11,8 +14,8 @@
   - ViewModel
 - Architecture
   - MVVM
-- [Baserecyclerviewadapter](https://github.com/skydoves/BaseRecyclerViewAdapter) : 섹션 리사이클러뷰
+- [Baserecyclerviewadapter](https://github.com/skydoves/BaseRecyclerViewAdapter) : Multi-sectioned RecyclerView
 - [Koin](https://github.com/InsertKoinIO/koin) : DI
-- [Retrofit2 & OkHttp3](https://github.com/square/retrofit) : REST API 통신
-- [Glide](https://github.com/bumptech/glide) : 이미지 로드
-- [RxJava2 & RxAndroid2](https://github.com/ReactiveX/RxJava) : 비동기 핸들링
+- [Retrofit2 & OkHttp3](https://github.com/square/retrofit) : REST API networking
+- [Glide](https://github.com/bumptech/glide) : Image loading framework
+- [RxJava2 & RxAndroid2](https://github.com/ReactiveX/RxJava) : For asynchronous
