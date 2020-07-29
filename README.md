@@ -4,7 +4,7 @@
 <img src = "https://user-images.githubusercontent.com/8165219/88750312-2b4a3200-d190-11ea-92a7-0fb2bc3995e4.gif" width="300px">
 
 ## Feature
-- 검색필드 텍스트 500ms 안에 변화가 없으면 검색
+- 검색필드 500ms 안에 변화가 없으면 검색
 - 무한 스크롤 페이징
 - 멀티 섹션
 - 검색 필터
